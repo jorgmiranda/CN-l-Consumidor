@@ -11,8 +11,8 @@
 	<groupId>com.rabbit</groupId>
 	<artifactId>consumidor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>consumidor</name>
-	<description>Microservicio Productor RabbitMQ</description>
+	<name>consumidor 1</name>
+	<description>Microservicio Consumidor 1 RabbitMQ</description>
 	<url/>
 	<licenses>
 		<license/>
