@@ -1,7 +1,7 @@
 package com.rabbit.consumidor.service;
 
-import com.rabbit.consumidor.model.Alerta;
+import com.rabbit.consumidor.dto.AlertaDTO;
 
 public interface AlertaService {
-    void guardarAlerta(Alerta alerta);
+    void guardarAlerta(AlertaDTO alertaDTO);
 }
