@@ -37,6 +37,7 @@ public class AlertaServiceImpl implements AlertaService{
         alerta.setAtendida(alertaDTO.getAtendida());
         alerta.setSeveridad(alertaDTO.getSeveridad());
         alerta.setFechaGeneracion(alertaDTO.getFechaGeneracion());
+        alerta.setSource("rabbitMQ");
 
         // Buscar el paciente por ID
         Optional<Paciente> pacienteOpt = pacienteRepository.findById(alertaDTO.getPacienteId());
